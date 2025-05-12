@@ -288,7 +288,7 @@ void updateStatus() {
         break;
     }
   }
-}
+}}
 
 // Ajusta la potencia del calentador 1
 void setHeater1(float qval) {
@@ -304,7 +304,7 @@ void setHeater2(float qval) {
 
 // Configuración inicial de Arduino
 void setup() {
-  analogReference(EXTERNAL);  // Usa referencia externa (3.3 V)
+  //analogReference(EXTERNAL);  // Usa referencia externa (3.3 V)
   while (!Serial) { /* espera a conectar puerto serie */ }
   Serial.begin(baud);
   Serial.flush();
