@@ -288,7 +288,7 @@ void updateStatus() {
         break;
     }
   }
-}}
+}
 
 // Ajusta la potencia del calentador 1
 void setHeater1(float qval) {
