@@ -33,8 +33,8 @@ plt.ion()  # Activar modo interactivo
 try:
     for i in range(n):
     # Leer temperatura actual
-        T1[i] = lab.T1
-        T2[i] = lab.T2
+        T1[i] = lab.T2
+        T2[i] = lab.T1
 
         # Cálculo del error
         err = SP1[i] - T1[i]
